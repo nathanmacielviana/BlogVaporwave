@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+html, body
+{
+    background-image: url(https://i.gifer.com/WBVk.gif);
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+#flex{display: flex; max-width: 850px;}
+
+.topbar
+{
+    height: 100px;
+    margin-bottom: 0px; /* Corrigido */
+    padding-top: 5px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15pt;
+}
+
+/*degrade*/
+.topbar h1 
+{
+    background: linear-gradient(to bottom, magenta, cyan);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent; 
+}
+
+.container{border-top: none; margin: auto; display: block; max-width: 850px;}
+.container a{color: cyan;}
+.container a:hover{color: white;}
+
+aside
+{
+    width: 30%;
+    margin-left: 5px;
+    border: 1px solid white;
+    background: #13092D;
+    color: magenta;
+    text-shadow: 0 0 20px magenta;
+    font-family: 'Press Start 2P', cursive;
+}
+
+aside p{font-size: 10px; color: white; text-shadow: none; margin-top: 50px; margin-bottom: 0; text-align: center;}
+
+.titulo, .titulo-sidebar
+{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Press Start 2P', cursive;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background: #43256E;
+}
+
+main{width: 74%; background: #13092D;}
+nav{position: sticky; top: 20px;}
+nav ul
+{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 30px;
+}
+
+nav ul li a {color:magenta; text-shadow: none; text-decoration: none; font-size: 10px;}
+.content{padding: 25px; color: white; font-family: 'Press Start 2P', cursive; font-size: 10px;}
+.content a{text-decoration: none;}
+.titulo{color: magenta; text-shadow: 0 0 20px magenta;}
+
+#footer
+{
+    height: 25px;
+    margin-top: 5px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+}
